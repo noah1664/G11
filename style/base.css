@@ -1,4 +1,9 @@
 /*placeholder colour, font, etc*/
+html, body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
 footer{
 	display: table;
 	background-color: red;
