@@ -4,7 +4,9 @@ html {
 }
 body {
     /* Margin top for fixed header */
+    margin-top: 120px;
     /* Margin bottom by footer height */
+    margin-bottom: 50px;
 }
 footer {
     /*Core essentials for footer placement */
