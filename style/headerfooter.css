@@ -1,0 +1,21 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin top for fixed header */
+    /* Margin bottom by footer height */
+}
+footer {
+    /*Core essentials for footer placement */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+}
+header {
+    /*Core essentials for fixed header placement*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
