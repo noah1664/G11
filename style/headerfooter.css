@@ -13,12 +13,23 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
-    margin-bottom: 20px;
+    /* Set the fixed height and padding of the footer here */
+    height: 80px;
+    padding-top: 20px;
+    /* Misc attributes for footer */
+    background-color: yellow;
 }
 header {
     /*Core essentials for fixed header placement*/
     position: fixed;
     width: 100%;
     top: 0;
+    background-color: yellow;
+}
+
+header .banner {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 25px;
 }
