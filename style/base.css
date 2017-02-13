@@ -1,25 +1,3 @@
-/*placeholder colour, font, etc*/
-html, body {
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-}
-footer{
-	display: table;
-	background-color: red;
-	bottom: 0;
-	height: 10vh;
-	width: 100%;
-}
-
-/*This is a temporary, bad solution for a "fluid" footer*/
-#footerchild{
-	display: table-cell;
-	vertical-align: middle;
-	
-}
-
-#footerchild a{
-	margin-left: 5vw;
-	margin-right: 5vw;
+body {
+    background-color: #Fff8e4;
 }

@@ -1,0 +1,40 @@
+main {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+main h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.row {
+    text-align: center;
+}
+
+div.itemcard {
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    margin-right: 20px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+div.imagetext {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+.col-sm-7 {
+    padding-top: 20px;
+}
+
+.col-sm-5 {
+    padding-top: 20px;
+}
+
+.forum {
+    margin-top: -400px;
+    background-color: yellow;
+}

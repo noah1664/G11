@@ -1,10 +1,11 @@
+
 html {
     position: relative;
     min-height: 100%;
 }
 body {
     /* Margin top for fixed header */
-    margin-top: 120px;
+    margin-top: 225px;
     /* Margin bottom by footer height */
     margin-bottom: 50px;
 }
@@ -17,14 +18,17 @@ footer {
     height: 80px;
     padding-top: 20px;
     /* Misc attributes for footer */
-    background-color: yellow;
+    background-color: #6170b2;
+    border-top: solid thin black;
 }
 header {
     /*Core essentials for fixed header placement*/
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: yellow;
+    background-color: #Ffefbe;
+    z-index: 999;
+    border-bottom: solid thin black;
 }
 
 header .banner {
@@ -32,4 +36,9 @@ header .banner {
     width: 50%;
     margin: auto;
     padding-bottom: 25px;
+}
+
+.navbar-default {
+    background-color: #6170b2;
+    border-bottom: solid thin black;
 }
