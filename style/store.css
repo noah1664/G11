@@ -3,6 +3,7 @@
     background: linear-gradient(to bottom, white, #D8ECF9);
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: solid thin black;
 }
 main {
     width: 80%;
@@ -15,11 +16,9 @@ main {
     width: 100%;
     margin:auto;
     background-color: white;
+    border-bottom: solid thin black;
 }
 
-.storenav a {
-    color: inherit;
-}
 
 li.navdrop {
     display: inline-block;
@@ -39,6 +38,7 @@ li.navdrop {
     text-decoration: none;
     display: block;
     text-align: left;
+    border-bottom: solid thin black;
 }
 
 .filterlist a:hover {background-color: #f1f1f1}
