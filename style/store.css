@@ -1,0 +1,46 @@
+.storebanner {
+    text-align: center;
+    background: linear-gradient(to bottom, white, #D8ECF9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+.storenav {
+    width: 100%;
+    margin:auto;
+    background-color: white;
+}
+
+.storenav a {
+    color: inherit;
+}
+
+li.navdrop {
+    display: inline-block;
+}
+
+.filterlist {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.filterlist a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.filterlist a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
