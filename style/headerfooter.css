@@ -5,7 +5,7 @@ html {
 }
 body {
     /* Margin top for fixed header */
-    margin-top: 225px;
+    margin-top: 52px;
     /* Margin bottom by footer height */
     margin-bottom: 50px;
 }
@@ -18,27 +18,15 @@ footer {
     height: 80px;
     padding-top: 20px;
     /* Misc attributes for footer */
-    background-color: #6170b2;
+    background-color: white;
     border-top: solid thin black;
-}
-header {
-    /*Core essentials for fixed header placement*/
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: #Ffefbe;
-    z-index: 999;
-    border-bottom: solid thin black;
-}
-
-header .banner {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 25px;
 }
 
 .navbar-default {
-    background-color: #6170b2;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    position: fixed;
+    background-color: white;
     border-bottom: solid thin black;
 }
