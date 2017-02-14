@@ -68,3 +68,7 @@ header .banner {
 .itemcard {
     border-radius: 3px;
 }
+
+.featureditems {
+    border-top: thin solid rgba(0, 0, 0, 0.3);
+}
