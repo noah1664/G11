@@ -28,12 +28,12 @@ div.imagetext {
 }
 
 .forum-feature {
+    margin: auto;
+    margin-top: 20px;
     background-color: white;
-    margin-top: -150px;
     border: solid thin black;
     border-radius: 3px;
     width: 100%;
-    margin-left: 39px;
 }
 
 .featurecontent {
