@@ -44,3 +44,9 @@ li.navdrop {
 .filterlist a:hover {background-color: #f1f1f1}
 
 .show {display:block;}
+
+.productcard {
+    width:80%;
+    margin: auto;
+    background-color: white;
+}

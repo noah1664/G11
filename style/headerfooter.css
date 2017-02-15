@@ -20,6 +20,7 @@ footer {
     /* Misc attributes for footer */
     background-color: white;
     border-top: solid thin black;
+    text-align: center;
 }
 
 .navbar-default {
