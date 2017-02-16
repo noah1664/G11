@@ -1,0 +1,23 @@
+.accountbanner {
+    text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: yellow;
+	margin-top: -20px;
+}
+
+.accountinfo h3{
+	text-align: center;
+}
+
+.accountinfo ul{
+	list-style-type: none;
+	padding: 0px;
+}
+=======
+main {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
