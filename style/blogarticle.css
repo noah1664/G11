@@ -1,0 +1,34 @@
+.blogbanner {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.blogbanner h1 {
+    width: 75%;
+}
+
+main {
+    margin-top:5%;
+    border: black solid thin;
+    background-color:white;
+    padding-bottom: 30px;
+    margin-bottom: 5%;
+}
+
+article {
+    width: 90%;
+    margin: auto;
+}
+
+.articlelist {
+    border: solid thin black;
+    margin-top: 30%;
+    margin-right: 10%;
+}
+
+h3 {
+    margin-bottom: 7%;
+    background-color: #000080;
+    margin-top: 0;
+    padding: 2%;
+    color: white;
+}

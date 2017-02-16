@@ -1,9 +1,10 @@
 .accountbanner {
     text-align: center;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	background-color: yellow;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	background-color: #000080;
 	margin-top: -20px;
+    color: white;
 }
 
 .accountinfo h3{
@@ -13,11 +14,4 @@
 .accountinfo ul{
 	list-style-type: none;
 	padding: 0px;
-}
-=======
-main {
-    width: 70%;
-    margin: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
 }

@@ -1,16 +1,10 @@
-main {
-    width: 70%;
-    margin: auto;
-    padding-bottom: 50px;
-}
-
 main h2 {
     text-align: center;
     padding-bottom: 20px;
 }
 
 div.itemcard {
-    width: 80%;
+    width: 70%;
     overflow: auto;
     margin: auto;
     margin-right: 20px;
@@ -23,9 +17,6 @@ div.imagetext {
     background-color: white;
 }
 
-.col-sm-3 {
-    padding-top: 20px;
-}
 
 .forum-feature {
     margin: auto;
@@ -49,7 +40,6 @@ div.imagetext {
 }
 
 header {
-    /*Core essentials for fixed header placement*/
     width: 100%;
     background-color: #Ffefbe;
     background-image: url("../images/vancity.jpg");
@@ -69,6 +59,14 @@ header .banner {
     border-radius: 3px;
 }
 
-.featureditems {
+.forum-feature {
     border-top: thin solid rgba(0, 0, 0, 0.3);
+}
+
+.itemcardcontainer {
+    margin-top: 5%;
+}
+
+.featureditems img {
+    width: 100%;
 }
