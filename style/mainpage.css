@@ -82,3 +82,8 @@ header .banner {
     width: 100%;
 /*  */
 }
+.bannertext {
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
