@@ -1,3 +1,4 @@
+
 html {
     position: relative;
     min-height: 100%;
@@ -91,10 +92,22 @@ footer {
     outline: 0 none;
 }
 
+.signin{
+	margin: auto;
+}
+
 main {
     padding-top: 50px;
     width: 75%;
     margin: auto;
     padding-bottom: 50px;
 /* The main content section gets effected by this */
+}
+
+.banner {
+    text-align: center;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	background-color: #000080;
+    color: white;
 }

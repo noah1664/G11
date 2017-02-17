@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
-            <title>GeekSQUAD Website</title>
+            <title>Sign In</title>
 		    <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -37,62 +37,28 @@
                     </div>
                 </nav>
                 <div class="banner">
-                    <h2><i>My Account</i></h2>
+                    <h2><i>Sign In</i></h2>
                 </div>
             </header>
             <main>
 				<div class="row">
-					<div class="col-sm-6">
-						<div class="accountinfo">
-							<h3>Account Info</h3>
-							<div class="col-sm-6">
-							<h4>Current Info</h4>
-								<img src="./images/placeholder1.jpg" alt="Profile Picture">
-								<ul>
-									<li><b>Name:</b> Jane Doe</li>
-									<li><b>Country:</b> Canada</li>
-									<li><b>City:</b> Burnaby</li>
-									<li><b>Address:</b> 1234 Fake Street</li>
-									<li><b>Zip Code:</b> A1B 3C4</li>
-									<li><b>Phone:</b> 123-456-7890</li>
-								</ul>
-							</div>
-							<div class="col-sm-6">
-								<h4>New Info</h4>
-
-<form id="registerForm" name="registerForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-  <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
-    <tr>
-      <th>First Name </th>
-      <td><input name="fname" type="text" class="textfield" id="fname" /></td>
-    </tr>
-    <tr>
-      <th>Last Name </th>
-      <td><input name="lname" type="text" class="textfield" id="lname" /></td>
-    </tr>
-    <tr>
-      <th width="124">Login</th>
-      <td width="168"><input name="login" type="text" class="textfield" id="login" /></td>
-    </tr>
-    <tr>
-      <th>Password</th>
-      <td><input name="password" type="password" class="textfield" id="password" /></td>
-    </tr>
-    <tr>
-      <th>Confirm Password </th>
-      <td><input name="cpassword" type="password" class="textfield" id="cpassword" /></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td><input type="submit" name="Submit" value="Register" /></td>
-    </tr>
-  </table>
-</form>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<h4>Order History</h4>
+    					<div class="signin">
+    						<form id="loginForm" name="loginForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+                                  <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
+                                    <tr>
+                                      <td width="112"><b>Login</b></td>
+                                      <td width="188"><input name="login" type="text" class="textfield" id="login" /></td>
+                                    </tr>
+                                    <tr>
+                                      <td><b>Password</b></td>
+                                      <td><input name="password" type="password" class="textfield" id="password" /></td>
+                                    </tr>
+                                    <tr>
+                                      <td>&nbsp;</td>
+                                      <td><input type="submit" name="Submit" value="Login" /></td>
+                                    </tr>
+                                  </table>
+                                </form>
 					</div>
 				</div>
             </main>

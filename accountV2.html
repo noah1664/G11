@@ -2,11 +2,10 @@
     <html lang="en">
         <head>
             <title>GeekSQUAD Website</title>
-		    <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+		    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
             <link rel="stylesheet" type="text/css" href="style/base.css">
-            <link rel="stylesheet" type="text/css" href="style/account.css">
+            <link rel="stylesheet" type="text/css" href="style/accountV_2.css">
             <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -36,7 +35,7 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="banner">
+                <div class="accountbanner">
                     <h2><i>My Account</i></h2>
                 </div>
             </header>
@@ -47,7 +46,6 @@
 							<h3>Account Info</h3>
 							<div class="col-sm-6">
 							<h4>Current Info</h4>
-								<img src="./images/placeholder1.jpg" alt="Profile Picture">
 								<ul>
 									<li><b>Name:</b> Jane Doe</li>
 									<li><b>Country:</b> Canada</li>
@@ -56,43 +54,31 @@
 									<li><b>Zip Code:</b> A1B 3C4</li>
 									<li><b>Phone:</b> 123-456-7890</li>
 								</ul>
+								
 							</div>
 							<div class="col-sm-6">
 								<h4>New Info</h4>
-
-<form id="registerForm" name="registerForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-  <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
-    <tr>
-      <th>First Name </th>
-      <td><input name="fname" type="text" class="textfield" id="fname" /></td>
-    </tr>
-    <tr>
-      <th>Last Name </th>
-      <td><input name="lname" type="text" class="textfield" id="lname" /></td>
-    </tr>
-    <tr>
-      <th width="124">Login</th>
-      <td width="168"><input name="login" type="text" class="textfield" id="login" /></td>
-    </tr>
-    <tr>
-      <th>Password</th>
-      <td><input name="password" type="password" class="textfield" id="password" /></td>
-    </tr>
-    <tr>
-      <th>Confirm Password </th>
-      <td><input name="cpassword" type="password" class="textfield" id="cpassword" /></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td><input type="submit" name="Submit" value="Register" /></td>
-    </tr>
-  </table>
-</form>
+								<form>
+									<b>Name:<br></b><input type="text" name="name"><br>
+									<b>Country:<br></b><input type="text" name="country"><br>
+									<b>City:<br></b><input type="text" name="city"><br>
+									<b>Address:<br></b><input type="text" name="address"><br>
+									<b>Zip Code:<br></b><input type="text" name="zipcode"><br>
+									<b>Phone:<br></b><input type="text" name="phone"><br>
+								</form>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<h4>Order History</h4>
+						<div class="col-sm-12" id="profilepic">
+							<h4>Profile Picture</h4>
+							<img src="./images/placeholder1.jpg" alt="Profile Picture" width="50%">
+						</div>
+						<div class="col-sm-12" id="orderhistory">
+							<h4>Order History</h4>
+						</div>
+						
+						
 					</div>
 				</div>
             </main>
@@ -100,17 +86,18 @@
 				<div class="container">
 					<div class="row">
                         <div class="col-sm-3">
-                            <a class="btn btn-default" href="about.html">About</a>
+                            <a class="btn btn-default" href="about.html">About<a/>
                         </div>
                         <div class="col-sm-3">
-						    <a class="btn btn-default" href="account.html">Account</a>
+						    <a class="btn btn-default" href="account.html">Account<a/>
                         </div>
                         <div class="col-sm-3">
-                            <a class="btn btn-default" href="blog.html">Blog</a>
+                            <a class="btn btn-default" href="blog.html">Blog<a/>
                         </div>
                         <div class="col-sm-3">
-						    <a class="btn btn-default" href="store.html">Store</a>
+						    <a class="btn btn-default" href="store.html">Store<a/>
                         </div>
+					    </div>
                     </div>
 				</div>
             </footer>

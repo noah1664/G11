@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .accountbanner {
     text-align: center;
 	padding-bottom: 10px;
@@ -7,18 +6,20 @@
 	margin-top: -20px;
     color: white;
 }
-/* Effects the account banner on the top of the page*/
-=======
->>>>>>> b0b484b954790837c70158cb423f05f59510f18c
+
 .accountinfo h3{
 	text-align: center;
 }
-<!-- Alligns the text to the center of the account info section -->
+
 .accountinfo ul{
 	list-style-type: none;
 	padding: 0px;
 }
 
-img {
-    width: 100%;
+#profilepic{
+	text-align: center;
+}
+
+#orderhistory{
+	text-align: center;
 }
