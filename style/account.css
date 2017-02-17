@@ -1,15 +1,20 @@
+
 .accountbanner {
     text-align: center;
 	padding-bottom: 10px;
 	padding-top: 40px;
 	background-color: #000080;
+
+	margin-top: -20px;
     color: white;
 }
-
+/* Effects the account banner on the top of the page*/
+    color: white;
+}
 .accountinfo h3{
 	text-align: center;
 }
-
+<!-- Alligns the text to the center of the account info section -->
 .accountinfo ul{
 	list-style-type: none;
 	padding: 0px;
