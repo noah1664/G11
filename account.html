@@ -58,14 +58,35 @@
 							</div>
 							<div class="col-sm-6">
 								<h4>New Info</h4>
-								<form>
-									<b>Name:<br></b><input type="text" name="name"><br>
-									<b>Country:<br></b><input type="text" name="country"><br>
-									<b>City:<br></b><input type="text" name="city"><br>
-									<b>Address:<br></b><input type="text" name="address"><br>
-									<b>Zip Code:<br></b><input type="text" name="zipcode"><br>
-									<b>Phone:<br></b><input type="text" name="phone"><br>
-								</form>
+								
+<form id="registerForm" name="registerForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+  <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
+    <tr>
+      <th>First Name </th>
+      <td><input name="fname" type="text" class="textfield" id="fname" /></td>
+    </tr>
+    <tr>
+      <th>Last Name </th>
+      <td><input name="lname" type="text" class="textfield" id="lname" /></td>
+    </tr>
+    <tr>
+      <th width="124">Login</th>
+      <td width="168"><input name="login" type="text" class="textfield" id="login" /></td>
+    </tr>
+    <tr>
+      <th>Password</th>
+      <td><input name="password" type="password" class="textfield" id="password" /></td>
+    </tr>
+    <tr>
+      <th>Confirm Password </th>
+      <td><input name="cpassword" type="password" class="textfield" id="cpassword" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="Submit" value="Register" /></td>
+    </tr>
+  </table>
+</form>
 							</div>
 						</div>
 					</div>
