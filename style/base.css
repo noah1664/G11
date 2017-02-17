@@ -90,20 +90,6 @@ footer {
 	margin: auto;
 }
 
-table, td {
-	border-style: solid;
-	border-width: 1px;
-	padding: 5px;
-	border-color: black;
-}
-
-th {
-	color: white;
-	background-color: black;
-	text-align: center;
-}
-
-
 main {
     padding-top: 50px;
     width: 75%;
