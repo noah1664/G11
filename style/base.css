@@ -86,6 +86,10 @@ footer {
     outline: 0 none;
 }
 
+.signin{
+	margin: auto;
+}
+
 main {
     padding-top: 50px;
     width: 75%;
