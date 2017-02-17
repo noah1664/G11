@@ -1,3 +1,4 @@
+
 html {
     position: relative;
     min-height: 100%;
@@ -95,4 +96,12 @@ main {
     width: 75%;
     margin: auto;
     padding-bottom: 50px;
+}
+
+.banner {
+    text-align: center;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	background-color: #000080;
+    color: white;
 }
