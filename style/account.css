@@ -1,15 +1,16 @@
-<<<<<<< HEAD
+
 .accountbanner {
     text-align: center;
 	padding-bottom: 10px;
 	padding-top: 40px;
 	background-color: #000080;
+
 	margin-top: -20px;
     color: white;
 }
 /* Effects the account banner on the top of the page*/
-=======
->>>>>>> b0b484b954790837c70158cb423f05f59510f18c
+    color: white;
+}
 .accountinfo h3{
 	text-align: center;
 }
@@ -17,8 +18,4 @@
 .accountinfo ul{
 	list-style-type: none;
 	padding: 0px;
-}
-
-img {
-    width: 100%;
 }

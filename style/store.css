@@ -1,3 +1,4 @@
+
 .storebanner {
     text-align: center;
     background-color: #000080;
@@ -7,6 +8,7 @@
     color: white;
 /* Applies all of these effects to the store banner on the top */
 }
+
 .storenav {
     width: 100%;
     margin:auto;
