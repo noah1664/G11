@@ -1,6 +1,7 @@
 main h2 {
     text-align: center;
     padding-bottom: 20px;
+/* Effects header 2, the "featured items" */
 }
 
 div.itemcard {
@@ -9,12 +10,14 @@ div.itemcard {
     margin: auto;
     margin-right: 20px;
     border: solid thin black;
+/* Effects the rectangle sections under featured items */
 }
 
 div.imagetext {
     text-align: center;
     padding: 20px;
     background-color: white;
+/* Text in the rectangle sections is centered/bc is white */
 }
 
 
@@ -25,14 +28,17 @@ div.imagetext {
     border: solid thin black;
     border-radius: 3px;
     width: 100%;
+
 }
 
 .featurecontent {
     padding: 10px;
+/* Rectangles have 10px of padding between each other */
 }
 
 .floatedimg {
     float: left;
+/* Img under what people are saying is to the left */
 }
 
 .featurecontent {
@@ -46,6 +52,7 @@ header {
     border-bottom: solid thin black;
     color: white;
     padding-top: 20px;
+/* All of the properties of the header, including img etc */
 }
 
 header .banner {
@@ -53,20 +60,25 @@ header .banner {
     width: 50%;
     margin: auto;
     padding-bottom: 25px;
+/* Text is centered and width set to 50%, aswell as padding on bottom of 25px */
 }
 
 .itemcard {
     border-radius: 3px;
+/* Rectangles border radius of 3px */
 }
 
 .forum-feature {
     border-top: thin solid rgba(0, 0, 0, 0.3);
+/* Border top style to thin solid rgba */
 }
 
 .itemcardcontainer {
     margin-top: 5%;
+/* Rectangles margin top set to 5% */
 }
 
 .featureditems img {
     width: 100%;
+/*  */
 }

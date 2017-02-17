@@ -10,6 +10,7 @@ body {
     margin-top: 52px;
     /* Margin bottom by footer height */
     margin-bottom: 5%;
+
 }
 
 footer {
@@ -33,6 +34,7 @@ footer {
     position: fixed;
     background-color: white;
     border-bottom: solid thin black;
+    /* Attributes for the navbar on the top left */
 }
 
 .circle {
@@ -44,12 +46,14 @@ footer {
     text-align: center;
     color: white;
     padding-top: 5px;
+/* Gives all of the effects to the small pink circle with the R in it*/
 }
 
 .circle a {
     color: white;
     font-weight: bold;
     text-decoration: none;
+/*Makes the color white and the font bold of the pink circle on the top */
 }
 
 .btn.outline {
@@ -65,6 +69,7 @@ footer {
 .btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
 
     border-color: #848484;
+/* Givess all of the effects of when you hover over the footer icons */
 }
 
 .btn-default.outline:active, .btn-default.outline.active {
@@ -91,4 +96,5 @@ main {
     width: 75%;
     margin: auto;
     padding-bottom: 50px;
+/* The main content section gets effected by this */
 }

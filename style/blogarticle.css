@@ -1,9 +1,11 @@
 .blogbanner {
     width: 100%;
     padding-bottom: 20px;
+/*Effects the banner*/
 }
 .blogbanner h1 {
     width: 75%;
+/*Effects the banner heading "Article Title"*/
 }
 
 main {
@@ -12,17 +14,20 @@ main {
     background-color:white;
     padding-bottom: 30px;
     margin-bottom: 5%;
+/* Effects the main section of content */
 }
 
 article {
     width: 90%;
     margin: auto;
+/* Effects the regular article section under sub heading*/
 }
 
 .articlelist {
     border: solid thin black;
     margin-top: 30%;
     margin-right: 10%;
+/* Effects the list within the articles section */
 }
 
 h3 {
@@ -31,4 +36,5 @@ h3 {
     margin-top: 0;
     padding: 2%;
     color: white;
+/* Effects the articles section and the heading of it*/
 }

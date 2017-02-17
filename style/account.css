@@ -6,11 +6,13 @@
 	margin-top: -20px;
     color: white;
 }
-
+<!-- Alligns the text to the centre and provides borders of 10px to the top and
+<40px to the bottom. It also changes the background color and regular color>
+-->
 .accountinfo h3{
 	text-align: center;
 }
-
+<!-- Alligns the text to the center -->
 .accountinfo ul{
 	list-style-type: none;
 	padding: 0px;

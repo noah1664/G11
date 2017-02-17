@@ -5,17 +5,20 @@
     padding-bottom: 20px;
     border-bottom: solid thin black;
     color: white;
+/* Applies all of these effects to the store banner on the top */
 }
 .storenav {
     width: 100%;
     margin:auto;
     background-color: white;
     border-bottom: solid thin black;
+/* Storenav bar on top left width set to 100%/ background color to white */
 }
 
 
 li.navdrop {
     display: inline-block;
+/* navbar features */
 }
 
 .filterlist {
@@ -24,6 +27,7 @@ li.navdrop {
     background-color: #f9f9f9;
     min-width: 160px;
     z-index: 1;
+/* Effects the "filter" text */
 }
 
 .filterlist a {
@@ -33,16 +37,18 @@ li.navdrop {
     display: block;
     text-align: left;
     border-bottom: solid thin black;
+/* Effects the filterlist text */
 }
 
 .filterlist a:hover {background-color: #f1f1f1}
-
+/* Color of when you hover on filter text */
 .show {display:block;}
 
 .productcard {
     width:60%;
     margin: auto;
     background-color: white;
+/* Width of 60% and background color of white */
 }
 .storebanner {
     text-align: center;
@@ -51,12 +57,14 @@ li.navdrop {
     padding-bottom: 20px;
     border-bottom: solid thin black;
     color: white;
+/* Effects the store banner on the top of the page */
 }
 .storenav {
     width: 100%;
     margin:auto;
     background-color: white;
     border-bottom: solid thin black;
+/* Width of 100% and background color of white */
 }
 
 .filterlist {
@@ -66,16 +74,19 @@ li.navdrop {
     border-radius: 3px;
     border: solid thin black;
     margin-top: 4%;
+/* Effects the filterlist on the left hand side */
 }
 
 .filterlist ul {
     list-style-type: none;
     margin-left: -10%;
+/* Effects the filterlist on the left hand side */
 }
 
 li {
     margin-top: 3%;
     margin-bottom: 3%;
+/* Effects the filterlist when it drops down */
 }
 
 
@@ -99,15 +110,17 @@ li {
 .pagelist {
     margin-top: 5%;
     text-align: center;
+/* Centers the text of the pagelist at the bottom of the page */
 }
 
 .pagelist li{
     display: inline;
     margin:auto;
     padding:2%;
+/* Effects the pagelist at the very bottom of the page */
 }
 
 .storecontent {
     padding-bottom: 10%;
-
+/* Gives the main content padding bottom 10% */
 }
