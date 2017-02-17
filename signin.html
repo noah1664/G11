@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Sign In</title>
+		    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="style/base.css">
+            <link rel="stylesheet" type="text/css" href="style/account.css">
+            <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+            <header>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li><a class="logo" href="index.html"><i><b>O.G.S.</b></i></a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i>Go!</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><div class="circle">R</div></a>
+                            </li>
+                            <li><a href="#"><p class="btn btn-default">Sign up</p></a></li>
+                            <li><a href="#"><p class="btn btn-default">Sign in</p></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="accountbanner">
+                    <h2><i>Sign In</i></h2>
+                </div>
+            </header>
+            <main>
+				<div class="row">
+					<div class="signin">
+						<form id="registerForm" name="registerForm" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+						  <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
+							<!--<tr>
+							  <th>First Name </th>
+							  <td><input name="fname" type="text" class="textfield" id="fname" /></td>
+							</tr>
+							<tr>
+							  <th>Last Name </th>
+							  <td><input name="lname" type="text" class="textfield" id="lname" /></td>
+							</tr>
+							<tr>-->
+							  <th width="124">Login</th>
+							  <td width="168"><input name="login" type="text" class="textfield" id="login" /></td>
+							</tr>
+							<tr>
+							  <th>Password</th>
+							  <td><input name="password" type="password" class="textfield" id="password" /></td>
+							</tr>
+							<tr>
+							  <!--<th>Confirm Password </th>
+							  <td><input name="cpassword" type="password" class="textfield" id="cpassword" /></td>
+							</tr>-->
+							<tr>
+							  <td>&nbsp;</td>
+							  <td><input type="submit" name="Submit" value="Sign in" /></td>
+							</tr>
+						  </table>
+						</form>
+					</div>
+				</div>
+            </main>
+            <footer>
+				<div class="container">
+					<div class="row">
+                        <div class="col-sm-3">
+                            <a class="btn btn-default" href="about.html">About<a/>
+                        </div>
+                        <div class="col-sm-3">
+						    <a class="btn btn-default" href="account.html">Account<a/>
+                        </div>
+                        <div class="col-sm-3">
+                            <a class="btn btn-default" href="blog.html">Blog<a/>
+                        </div>
+                        <div class="col-sm-3">
+						    <a class="btn btn-default" href="store.html">Store<a/>
+                        </div>
+					    </div>
+                    </div>
+				</div>
+            </footer>
+        </body>
+    </html>
