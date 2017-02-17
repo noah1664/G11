@@ -1,3 +1,11 @@
+.accountbanner {
+    text-align: center;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	background-color: #000080;
+    color: white;
+}
+
 .accountinfo h3{
 	text-align: center;
 }
@@ -5,8 +13,4 @@
 .accountinfo ul{
 	list-style-type: none;
 	padding: 0px;
-}
-
-img {
-    width: 100%;
 }
